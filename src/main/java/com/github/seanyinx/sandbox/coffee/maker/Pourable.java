@@ -1,5 +1,5 @@
 package com.github.seanyinx.sandbox.coffee.maker;
 
-interface Pourable {
+public interface Pourable {
     void pour(String stuff);
 }
