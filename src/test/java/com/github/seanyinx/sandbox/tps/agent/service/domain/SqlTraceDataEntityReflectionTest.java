@@ -49,7 +49,7 @@ public class SqlTraceDataEntityReflectionTest {
 
     @Test
     public void dataSourceHasExpectedFields() throws ClassNotFoundException {
-        Class<?> dataSourceEntity = Class.forName("com.oneapm.tps.agent.service.domain.SqltraceDataEntity");
+        Class<?> dataSourceEntity = Class.forName("com.github.seanyinx.sandbox.tps.agent.service.domain.SqltraceDataEntity");
 
         List<String> actualFieldNames = new ArrayList<>();
         Map<String, String> actualFields = new HashMap<>();
